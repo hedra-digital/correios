@@ -295,6 +295,19 @@ SERVICES = {
         "min_declared_value": Decimal("20.50"),
         "max_declared_value": Decimal("10000.00"),
     },
+    
+    # PAC New Contract Number
+    "03085": {
+        "id": 109819,
+        "description": "PAC CONTRATO AGENCIA",
+        "category": "PAC",
+        "display_name": "PAC",
+        "max_weight": 30000,
+        "symbol": "standard",
+        "default_extra_services": [EXTRA_SERVICE_RR],
+        "min_declared_value": Decimal("20.50"),
+        "max_declared_value": Decimal("3000.00"),
+    },
     "41068": {
         "id": 109819,
         "description": "PAC CONTRATO AGENCIA",
@@ -342,6 +355,19 @@ SERVICES = {
     "40096": {
         "id": 104625,
         "description": "SEDEX (CONTRATO)",
+        "category": "SEDEX",
+        "max_weight": 30000,
+        "display_name": "SEDEX",
+        "symbol": "express",
+        "default_extra_services": [EXTRA_SERVICE_RR],
+        "min_declared_value": Decimal("20.50"),
+        "max_declared_value": Decimal("10000.00"),
+    },
+
+    # SEDEX New Contract Number
+    "03050": {
+        "id": 124849,
+        "description": "SEDEX CONTRATO AGENCIA",
         "category": "SEDEX",
         "max_weight": 30000,
         "display_name": "SEDEX",
